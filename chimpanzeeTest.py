@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 
 # executable_path = "/Users/yujie/Documents/Source/SeleniumTest/selenium_drivers/geckodriver"
 # driver = webdriver.Firefox(executable_path=executable_path)
-executable_path = "/Users/yujie/Documents/Source/SeleniumTest/selenium_drivers/geckodriver"
-driver = webdriver.Firefox(executable_path=executable_path)
+executable_path = "/Users/yujie/Documents/Source/SeleniumTest/selenium_drivers/chromedriver"
+driver = webdriver.Chrome(executable_path=executable_path)
 driver.get("https://humanbenchmark.com/tests/chimp")
 
 driver.find_element(By.CSS_SELECTOR, "button.css-de05nr.e19owgy710").click()
